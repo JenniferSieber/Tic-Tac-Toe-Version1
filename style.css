@@ -1,0 +1,92 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body, header, footer, .game-container, .grid, .cell, .status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header, .game-container, footer {
+  flex-direction: column;
+  width: 31rem;
+  height: auto;
+}
+
+body {
+  flex-direction: column;
+  font-family: sans-serif;
+  background: rgba(0, 0, 0, 0.623);
+  color: white;
+}
+
+header {
+  background: rgb(156, 65, 241);
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: bolder;
+}
+
+button {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.game-container {
+  flex-direction: column;
+  background: rgb(171, 91, 247);
+  padding: 3rem 0;
+}
+
+.grid {
+  width: 22rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cell {
+  height: 7rem;
+  width: 7rem;
+  background: white;
+  color: black;
+  border: 1px solid purple;
+  font-size: 5.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.status {
+  padding: 1.5rem 0;
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+footer {
+  background: black;
+  color:rgb(171, 91, 247);
+}
+
+a {
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
