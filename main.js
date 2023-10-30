@@ -98,4 +98,3 @@ function checkForWinner() {
   }
   return null
 }
-
